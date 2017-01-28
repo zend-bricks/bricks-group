@@ -1,0 +1,23 @@
+{
+    "name": "zend-bricks/bricks-group",
+    "description": "a group system which can be enriched with news, forum or calendar",
+    "keywords": [
+        "php",
+        "zend",
+        "bricks",
+        "group"
+    ],
+    "license": "LGPL-3.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0.0",
+        "ext-intl": "*",
+        "zend-bricks/bricks-common": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZendBricks\\BricksGroup\\": "src/"
+        }
+    }
+}
