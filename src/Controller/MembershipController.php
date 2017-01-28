@@ -2,10 +2,10 @@
 
 namespace ZendBricks\BricksGroup\Controller;
 
-use ZendBricks\BricksCommon\Controller\CrudController;
+use Zend\Mvc\Controller\AbstractActionController;
 use ZendBricks\BricksUser\Api\GroupApiInterface;
 
-class GroupController extends CrudController
+class MembershipController extends AbstractActionController
 {
     protected $api;
 
